@@ -34,7 +34,7 @@ func (c *userController) Regis(ctx *gin.Context) {
 		return
 	}
 
-	ctx.Status(http.StatusCreated)
+	ctx.Status(http.StatusOK)
 }
 
 func (c *userController) Login(ctx *gin.Context) {
